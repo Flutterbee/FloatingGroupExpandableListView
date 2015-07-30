@@ -547,4 +547,15 @@ public class FloatingGroupExpandableListView extends ExpandableListView {
 	public interface OnScrollFloatingGroupListener {
 		public void onScrollFloatingGroupListener(View floatingGroupView, int scrollY);
 	}
+	public interface OnScrollFloatingGroupListener {
+        public void onScrollFloatingGroupListener(View floatingGroupView, int scrollY);
+    }
+
+    public int getFloatingGroupPosition() {
+        return mFloatingGroupPosition;
+    }
+
+    public View getFloatingGroupView() {
+        return mFloatingGroupView;
+    }
 }
