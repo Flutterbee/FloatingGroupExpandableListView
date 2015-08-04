@@ -35,3 +35,10 @@ lint.xml
 .DS_STORE
 .factorypath
 
+## Gradle
+.gradle
+build/
+gradle.properties
+gradlew
+gradlew.bat
+gradle/*
