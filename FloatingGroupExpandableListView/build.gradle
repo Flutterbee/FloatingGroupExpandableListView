@@ -20,6 +20,7 @@ android {
             assets.srcDirs = ['assets']
         }
     }
+    buildToolsVersion '23.0.3'
 }
 
 apply from: 'https://raw.github.com/diegocarloslima/gradle-mvn-push/master/gradle-mvn-push.gradle'
